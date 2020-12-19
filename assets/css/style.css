@@ -1,0 +1,224 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,700;0,900;1,400;1,500&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-color: rgb(214, 214, 214);
+  font-family: "Roboto", sans-serif;
+}
+
+.cv {
+  height: auto;
+  width: 1000px;
+  margin: 50px auto;
+  display: flex;
+}
+
+.konten-kiri {
+  width: 300px;
+  height: auto;
+  background-color: #36453b;
+  color: whitesmoke;
+}
+
+.konten-kiri .foto {
+  text-align: center;
+}
+
+.konten-kiri .foto img {
+  height: 300px;
+}
+
+.konten-kiri .siapa {
+  text-align: center;
+  height: 75px;
+  background-color: #c2c1a5;
+  color: #36453b;
+}
+
+.konten-kiri .siapa #nama {
+  padding-top: 8px;
+  font-size: x-large;
+  font-weight: bold;
+}
+
+.konten-kiri .siapa #path {
+  padding-top: 10px;
+  font-weight: 400;
+}
+
+.konten-kiri .head {
+  text-align: center;
+  margin: 30px 20px 0px 20px;
+  font-weight: 700;
+  font-size: large;
+  letter-spacing: 7px;
+  border-style: solid;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+.konten-kiri .garis-batas {
+  margin: 25px 20px 0px 20px;
+}
+
+ul {
+  list-style: none;
+}
+
+.konten-kiri .informasi ul li,
+.skill ul li,
+.hobi ul li {
+  display: flex;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.konten-kiri .text {
+  padding-top: 5px;
+  font-weight: 500;
+}
+
+.konten-kiri ul li .icon {
+  height: 35px;
+  width: 35px;
+  background-color: #ffffff;
+  border-radius: 50%;
+  font-size: 15px;
+  text-align: center;
+  margin-right: 15px;
+  position: relative;
+}
+
+.konten-kiri .ico {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.konten-kiri .skill li {
+  display: block;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.bar {
+  display: block;
+  height: 4px;
+  margin-top: 15px;
+  background: #c2c1a5;
+  border: 2px solid #ffffff;
+  overflow: hidden;
+  border-radius: 3px;
+}
+
+.bar span {
+  padding-top: 2px;
+  height: 2px;
+  float: left;
+  text-align: center;
+  background: #515751;
+}
+
+.html {
+  width: 75%;
+}
+
+.css {
+  width: 60%;
+}
+
+.js {
+  width: 45%;
+}
+.konten-kiri .garis-batas {
+  margin: 40px 60px 60px 60px;
+}
+
+.konten-kiri .credit {
+  text-align: center;
+  padding-bottom: 70px;
+  margin-top: 40px;
+}
+
+.konten-kanan {
+  width: 700px;
+  height: auto;
+  background-color: #f5f9e9;
+}
+
+.konten-kanan .judul {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.konten-kanan .judul h1 {
+  font-size: 60px;
+  color: #36453b;
+}
+
+.konten-kanan .head {
+  padding-top: 40px;
+  margin: 18px 60px 0px 60px;
+}
+
+.konten-kanan .head h2 {
+  text-align: center;
+  background-color: #36453b;
+  border: 5px solid #c2c1a5;
+  color: white;
+  font-weight: 700;
+  font-size: large;
+  letter-spacing: 7px;
+  border-style: solid;
+  padding: 5px;
+  margin-bottom: 30px;
+}
+
+.konten-kanan .head span {
+  text-align: justify;
+  color: #515751;
+  color: #36453b;
+  margin-top: 7px;
+  font-size: 20px;
+}
+
+.konten-kanan .tingkat {
+  margin-top: 20px;
+}
+
+.konten-kanan .tingkat h3 {
+  color: #36453b;
+  font-size: 25px;
+}
+
+.konten-kanan .tingkat h4 {
+  color: #36453b;
+  margin-top: 7px;
+  font-size: 20px;
+}
+
+.konten-kanan .exp {
+  margin-top: 20px;
+}
+
+.konten-kanan .exp h3 {
+  color: #36453b;
+  font-size: 25px;
+}
+
+.konten-kanan .exp h4 {
+  color: #36453b;
+  margin-top: 7px;
+  font-size: 20px;
+}
+
+.konten-kanan .exp p {
+  color: #36453b;
+  margin-top: 7px;
+  font-size: 20px;
+}
